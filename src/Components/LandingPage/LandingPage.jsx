@@ -96,8 +96,8 @@ const handleSubmit = async (e) => {
                 <span className="sign-in-link" onClick={toggleDropdown}>Sign In</span>
                 {isDropdownOpen && (
                 <div className="dropdown-content">
-                    <RouterLink to="https://admin-hr-harmony.seculab.space/LoginSignup">Admin</RouterLink>
-                    <RouterLink to="https://employee-hr-harmony.seculab.space/LoginSignup">Employee</RouterLink>
+                    <RouterLink to="https://admin.hr-harmony.my.id/login">Admin</RouterLink>
+                    <RouterLink to="https://employee.hr-harmony.my.id/loginsignup">Employee</RouterLink>
                 </div>
                 )}
             </div>

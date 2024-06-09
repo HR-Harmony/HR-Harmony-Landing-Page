@@ -58,7 +58,7 @@ const handleSubmit = async (e) => {
     e.preventDefault();
     try {
         await axios.post('https://backend-hr-harmony.seculab.space/cooperation', formData);
-        alert('Cooperation Message berhasil dikirim!');
+        alert('Cooperation Message sent successfuly!');
         setFormData({
             first_name: '',
             last_name: '',
@@ -97,7 +97,7 @@ const handleSubmit = async (e) => {
                 {isDropdownOpen && (
                 <div className="dropdown-content">
                     <RouterLink to="https://admin.hr-harmony.my.id/login">Admin</RouterLink>
-                    <RouterLink to="https://employee.hr-harmony.my.id/loginsignup">Employee</RouterLink>
+                    <RouterLink to="https://employee.hr-harmony.my.id/login">Employee</RouterLink>
                 </div>
                 )}
             </div>
